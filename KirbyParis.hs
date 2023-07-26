@@ -1,3 +1,4 @@
+module KirbyParis where
 import Control.Monad (unless)
 import Data.Maybe (fromMaybe)
 import Data.List (findIndex)

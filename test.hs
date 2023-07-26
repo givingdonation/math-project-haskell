@@ -1,9 +1,9 @@
 module Main where
 
-import qualified Beklemishev as B
-
+--import qualified Beklemishev as B
+import qualified KirbyParis as K
 main :: IO ()
-main = print $ tester B.nextWorm [[1]] == [[0],[0,0],[1]]
+main = print $ tester K.nextHydra [[1,0]] == [[0],[0,0],[1,0]]
 
 tester :: ([Int] -> Int -> [Int]) -> [[Int]] -> [[Int]]
 tester func ([]:xs) = xs
